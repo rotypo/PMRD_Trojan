@@ -1,0 +1,70 @@
+\documentclass[polish,a4paper,11pt]{mwart}
+
+\usepackage[polish, english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}  % zestaw fontów
+\usepackage{indentfirst}
+\frenchspacing
+
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{makecell}
+\usepackage{siunitx}
+\sisetup{output-decimal-marker = {,}}
+\usepackage{icomma}
+\let\lll\undefined
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{mathtools}
+\usepackage{import}		% wklejanie pdf_tex
+\usepackage{xcolor}		% kolory
+\usepackage{microtype}
+
+\usepackage{csquotes}
+\DeclareQuoteAlias{croatian}{polish}
+
+\usepackage{placeins}	% poprawia float
+
+\let\Oldsection\section
+\renewcommand{\section}{\FloatBarrier\Oldsection}
+
+\let\Oldsubsection\subsection
+\renewcommand{\subsection}{\FloatBarrier\Oldsubsection}
+
+\let\Oldsubsubsection\subsubsection
+\renewcommand{\subsubsection}{\FloatBarrier\Oldsubsubsection}
+
+\AtBeginDocument{
+  \renewcommand{\tablename}{Tab.}
+  \renewcommand{\figurename}{Rys.}
+}
+
+
+\begin{document}
+
+
+	\begin{table}[h] %Tabelka
+	\centering
+		\begin{tabular}{ | c |  >{\centering\arraybackslash}m{5.5cm} | c | }
+			\hline
+			\makecell{ \textbf{Wydział:} \\ IMiR \\ \textbf{Rok:}~5 \\ Semestr: 2 } &
+			\textbf{\large{Praktyczne Metody Redukcji Drgań}} &
+			\makecell{Data \\ wykonania \\ ćwiczenia: \\ 22.11.2018} \\ \hline
+      \makecell{\emph{Wykonujący ćw.:} \\ Marcel Piszak \\ Szymon Mikulicz \\ Zuzanna Kusal \\ Anna Warowny} &
+			\large{Aktywna redukcja drgań belki utwierdzonej jednostronnie} &
+			\makecell{Nr ćwiczenia: \\ 1} \\ \hline
+		\end{tabular}
+	\end{table}
+
+  \section{Cel ćwiczenia}
+
+  \section{Identyfikacja drgań belki}
+
+  \section{Opis przebiegu ćwiczenia}
+
+  \section{Wyniki redukcji}
+
+  \section{Wnioski}
+\end{document}
