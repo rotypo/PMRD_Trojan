@@ -41,6 +41,7 @@
   \renewcommand{\figurename}{Rys.}
 }
 
+\DeclareSIUnit\decibelV{dBV}
 
 \begin{document}
 
@@ -60,11 +61,34 @@
 
   \section{Cel ćwiczenia}
 
+  Celem ćwiczenia była redukcja drgań belki jednostronnie utwierdzonej metodą
+  aktywną z użyciem elementów piezoelektrycznych.
+
   \section{Identyfikacja drgań belki}
 
   \section{Opis przebiegu ćwiczenia}
 
-  \section{Wyniki redukcji}
+  Belkę utwierdzono jednostronnie. Umieszczono na niej wzbudnik, dwa czujniki
+  oraz dwa aktuatory. Oprogramowanie sterujące napisano w oprogramowaniu
+  LabVIEW\textregistered. Do akwizycji i generacji sygnałów użyto karty
+  National Instruments\textregistered. Sygnały na wzbudnik oraz na aktuatory
+  podano na wzmacniacze. 
 
-  \section{Wnioski}
+  Dla każdej częstotliości drgań własnych belki przeprowadzano redukcję osobno.
+  Ponieważ użyto identycznych czujników oraz przedmiotem zainteresowania były
+  względne wartości przyspieszenia drgań, pominięto wyznaczenie wartości
+  absolutnych i jako jednostek użyto poziomu napięcia (\si{\decibelV})
+  generowanego przez czujniki w odniesieniu do napięcia \SI{1}{\volt} (wartości
+  skutecznej). 
+
+  Pierwszy pomiar przeprowadzono dla wyłączonych aktuatorów w celu uzyskania
+  inforamcji o amplitudzie drgań bez redukcji. Następnie przeprowadzono
+  redukcję za pomocą aktuatorów $A1$, $A2$ oraz $A1+A2$. Każda redukcja była
+  przeprowadzana względem czujników $S1$, $S2$ oraz ich sumy $S1+S2$.
+  Procedura polegała na takim doborze amplitudy oraz
+  przesunięcia fazowego sygnału podawanego na aktuator, aby uzyskać minimum
+  dgań w zakresie redukcji.
+
+  \section{Wyniki redukcji}
+  
 \end{document}
