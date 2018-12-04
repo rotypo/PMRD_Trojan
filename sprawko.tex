@@ -17,6 +17,7 @@
 \usepackage{icomma}
 \let\lll\undefined
 \usepackage{amsmath, amssymb, amsfonts}
+\usepackage{multirow}
 \usepackage{mathtools}
 \usepackage{import}		% wklejanie pdf_tex
 \usepackage{xcolor}		% kolory
@@ -66,6 +67,61 @@
 
   \section{Identyfikacja drgań belki}
 
+  \begin{table}[!tbh]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+      \cline{3-7}
+      \multicolumn{2}{c|}{}&$A1$&$A2$&$S1$&$S2$&$S1+S2$\\\hline
+      \multirow{2}{*}{\textit{a priori}} & $A$ & - & - & 28,7 & 40,2 & 28,8\\\cline{2-7}
+					 & $\Phi$ & - & - & \multicolumn{3}{c}{}\\\hline
+      \multirow{6}{*}{$\min\{S1\}$}   &   $A$ & 0,26 & - & 28,7 & -66 & 28,8\\\cline{2-7}
+				      &$\Phi$ & 345 & - & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & - & 4,5 & 34,8 & 18,9 & 18,9\\\cline{2-7}
+				      &$\Phi$ & - & 185 & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & 0,26 & 0,15 & -80 & 47,2 & 47,2\\\cline{2-7}
+				      &$\Phi$ & 345 & 203 & \multicolumn{3}{c}{}\\\hline
+      \multirow{6}{*}{$\min\{S2\}$}   &   $A$ & 0,27 & - & 55,2 & -83 & 55,5\\\cline{2-7}
+				      &$\Phi$ & 348 & - & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & - & 0,3 & 29,3 & 61,5 & 29,3\\\cline{2-7}
+				      &$\Phi$ & - & 229 & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & 0,27 & 0,15 & 35,4 & 76,2 & 35,4\\\cline{2-7}
+				      &$\Phi$ & 14 & 149 & \multicolumn{3}{c}{}\\\hline
+      \multirow{6}{*}{$\min\{S1+S2\}$}&   $A$ & 0,26 & - & 62,5 & 65,2 & 63,1\\\cline{2-7}
+				      &$\Phi$ & 346 & - & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & - & 1,2 & 30,8 & 31,7 & 30,8\\\cline{2-7}
+				      &$\Phi$ & - & 204 & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & 0,26 & 0 & 57,5 & -66 & 57,7\\\cline{2-7}
+				      &$\Phi$ & 346 & 0 & \multicolumn{3}{c}{}\\\cline{1-4}
+    \end{tabular}
+  \end{table}
+
+  \begin{table}[!tbh]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+      \cline{3-7}
+      \multicolumn{2}{c|}{}&$A1$&$A2$&$S1$&$S2$&$S1+S2$\\\hline
+      \multirow{2}{*}{\textit{a priori}} & $A$ & - & - & 25,1 & 37,3 & 25,1\\\cline{2-7}
+					 & $\Phi$ & - & - & \multicolumn{3}{c}{}\\\hline
+      \multirow{6}{*}{$\min\{S1\}$}   &   $A$ & 4,5 & - & 39,6 & 14,4 & 14,4\\\cline{2-7}
+				      &$\Phi$ & 0 & - & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & - & 0,53 & 46,9 & 35,9 & 35,9\\\cline{2-7}
+				      &$\Phi$ & - & 0 & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & 0,4 & 0,5 & 65,4 & 30,9 & 30,9\\\cline{2-7}
+				      &$\Phi$ & 52 & 0 & \multicolumn{3}{c}{}\\\hline
+      \multirow{6}{*}{$\min\{S2\}$}   &   $A$ & 0,33 & - & 24,6 & 75,0 & 24,6\\\cline{2-7}
+				      &$\Phi$ & 197 & - & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & - & 1,3 & 15,8 & 67,3 & 15,8\\\cline{2-7}
+				      &$\Phi$ & - & 254 & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & 0,32 & 1,3 & 14,5 & 74,8 & 14,5\\\cline{2-7}
+				      &$\Phi$ & 261 & 197 & \multicolumn{3}{c}{}\\\hline
+      \multirow{6}{*}{$\min\{S1+S2\}$}&   $A$ & 0,77 & - & 26,7 & 27,2 & 26,6\\\cline{2-7}
+				      &$\Phi$ & 254 & - & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & - & 0,4 & 37,3 & 36,3 & 36,3\\\cline{2-7}
+				      &$\Phi$ & - & 0 & \multicolumn{3}{c}{}\\\cline{2-7}
+				      &   $A$ & 0,3 & 0,6 & 47,3 & 45,7 & 45,7\\\cline{2-7}
+				      &$\Phi$ & 186 & 4 & \multicolumn{3}{c}{}\\\cline{1-4}
+    \end{tabular}
+  \end{table}
   \section{Opis przebiegu ćwiczenia}
 
   Belkę utwierdzono jednostronnie. Umieszczono na niej wzbudnik, dwa czujniki
