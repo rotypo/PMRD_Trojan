@@ -55,10 +55,10 @@
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{beam.pdf}}%
     \put(0.28252478,0.38456449){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$W$\end{tabular}}}}%
-    \put(0.48944237,0.38456437){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A1$\end{tabular}}}}%
-    \put(0.70214065,0.38456449){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A2$\end{tabular}}}}%
-    \put(0.56527403,0.42641014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S1$\end{tabular}}}}%
-    \put(0.77797228,0.42641014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S2$\end{tabular}}}}%
+    \put(0.48944237,0.38456437){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A2$\end{tabular}}}}%
+    \put(0.70214065,0.38456449){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$A1$\end{tabular}}}}%
+    \put(0.56527403,0.42641014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S2$\end{tabular}}}}%
+    \put(0.77797228,0.42641014){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$S1$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{beam.pdf}}%
     \put(0.20056056,0.12940244){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}PC\end{tabular}}}}%
     \put(0.36731091,0.14750274){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ADC/\end{tabular}}}}%
